@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+</head>
+<body>
+    <p id="map"></p>
+    <script>
+        var number=[13,8,95,87];
+        function multiply(n){
+            return n*10;
+        }
+        var newarray=number.map(multiply);
+        document.getElementById("map").innerHTML=newarray
+    </script>
+</body>
+</html>
